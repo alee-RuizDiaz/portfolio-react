@@ -1,6 +1,7 @@
 
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react';
+import './index.css';
+import { Routes, Route } from 'react-router-dom'
 import Home from './routes/Home.js'
 import About from './routes/About.js'
 import Project from './routes/Project.js'
@@ -10,7 +11,6 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/project' element={<Project/>}/>
@@ -18,7 +18,6 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='*' element={<h1>ERROR 404</h1>}/>
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }

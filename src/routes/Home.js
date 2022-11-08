@@ -1,8 +1,13 @@
 import React from 'react'
+import NavBar from '../components/NavBar/NavBar.js'
+import VideoHome from '../components/VideoHome/VideoHome.js'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <NavBar/>
+      <VideoHome/>
+    </div>
   )
 }
 
