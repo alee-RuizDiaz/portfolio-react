@@ -1,0 +1,42 @@
+.projectContainer {
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.projectCard {
+    background-color: #110A18;
+    padding: 1.2rem 1rem;
+}
+
+.projectCard img {
+    width: 100%;
+}
+
+.projectTitle {
+    color: white;
+    padding: 1rem 0;
+}
+
+.proDetails p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.proButtons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+ @media (max-width: 740px) {
+    .projectContainer {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+ }

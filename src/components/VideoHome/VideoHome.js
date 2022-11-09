@@ -10,8 +10,8 @@ function VideoHome() {
             <video className='video' src={coverVideo} autoPlay loop muted/>
         </div>
         <div className='textContent'>
-            <h1>Alejandro Ruiz Diaz</h1>
-            <p>Desarrollador Frontend</p>
+            <p>Alejandro Ruiz Diaz</p>
+            <h1>React Developer.</h1>
             <div className='mt-4'>
             <Link className='btn-neon mx-3' to={'/about'}>
                 <span className="span1"></span>

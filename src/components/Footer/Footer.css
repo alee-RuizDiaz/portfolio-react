@@ -1,0 +1,20 @@
+.footer {
+    background-color: #100F10;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}

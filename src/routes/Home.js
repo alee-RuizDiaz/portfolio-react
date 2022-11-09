@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer.js'
 import NavBar from '../components/NavBar/NavBar.js'
 import VideoHome from '../components/VideoHome/VideoHome.js'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <NavBar/>
       <VideoHome/>
+      <Footer/>
     </div>
   )
 }
