@@ -1,10 +1,13 @@
 import React from 'react'
-import NavBar from '../components/NavBar/NavBar'
+import AboutContent from '../components/AboutContent/AboutContent'
+import HeroImage from '../components/HeroImage/HeroImage'
+
 
 const About = () => {
   return (
     <div>
-      <NavBar/>
+      <HeroImage  heading='SOBRE MI.' text='Soy un desarrollador Web' estilos='aboutHeading'/>
+      <AboutContent/>
     </div>
   )
 }

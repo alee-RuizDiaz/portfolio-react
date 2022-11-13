@@ -1,6 +1,7 @@
 import './VideoHome.css'
 import coverVideo from '../../media/coverVideo.mp4'
 import React from 'react'
+import AlejandroCv from '../../assets/AlejandroCv.pdf'
 import { Link } from 'react-router-dom'
 
 function VideoHome() {
@@ -9,17 +10,17 @@ function VideoHome() {
         <div className='mask'>
             <video className='video' src={coverVideo} autoPlay loop muted/>
         </div>
-        <div className='textContent'>
+        <div className='textContent animate-bg'>
             <p>Alejandro Ruiz Diaz</p>
             <h1>React Developer.</h1>
             <div className='mt-4'>
-            <Link className='btn-neon mx-3' to={'/about'}>
+            <a className='btn-neon mx-3' download='' href={AlejandroCv}>
                 <span className="span1"></span>
                 <span className="span2"></span>
                 <span className="span3"></span>
                 <span className="span4"></span>
-                Sobre Mi
-            </Link>
+                Descargar CV
+            </a>
             <Link className='btn-neon' to={'/project'}>
                 <span className="span1"></span>
                 <span className="span2"></span>

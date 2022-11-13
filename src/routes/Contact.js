@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from '../components/NavBar/NavBar'
+import HeroImg from '../components/HeroImage/HeroImage.js'
+import Form from '../components/Form/Form'
 
 const Contact = () => {
   return (
-    <div>
-      <NavBar/>
+    <div>  
+      <HeroImg estilos={'contactHeading'} heading='CONTACTO.' text='¡Escríbeme!'/>
+      <Form/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .heroImg {
     width: 100%;
-    background-color: rgba(97, 3, 100, 0.116);
+    background-color: #6103641e;
     height: 50vh;
     position: relative;
 }
@@ -19,6 +19,73 @@
 }
 
 .heading {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHeading::before {
+    content: "";
+    background-image: url("../../image/AboutBack.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.aboutHeading {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHeading::before {
+    content: "";
+    background-image: url("../../image/ContactImg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contactHeading {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsHeading::before {
+    content: "";
+    background-image: url("../../image/SkillsImg.jpg");
+    opacity: 0.25;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.skillsHeading {
     display: flex;
     width: 100%;
     height: 100%;

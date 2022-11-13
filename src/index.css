@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background-color: #000 !important;
+    /*background-color: #000 !important;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
 
 h1, h4, p, a {

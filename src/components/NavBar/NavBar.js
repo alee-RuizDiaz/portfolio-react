@@ -20,6 +20,7 @@ const changeColor = () => {
 
 window.addEventListener("scroll", changeColor)
 
+
 return (
     <div className={color ? 'header header-bg' : 'header'}>
         <Link className='titleNavbar ms-lg-5 ms-3' to='/'>
@@ -30,10 +31,10 @@ return (
                 <Link to='/'>Inicio</Link>
             </li>
             <li>
-                <Link to='/project'>Proyectos</Link>
+                <Link to='/about'>Sobre Mi</Link>
             </li>
             <li>
-                <Link to='/about'>Sobre Mi</Link>
+                <Link to='/project'>Proyectos</Link>
             </li>
             <li>
                 <Link to='/contact'>Contacto</Link>
