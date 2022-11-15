@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.iconNav {
+    margin-bottom: 7px;
+}
+
 .header-bg {
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
@@ -66,5 +70,9 @@
 
     .hamburger {
         display: initial;
+    }
+
+    .iconNav {
+        margin-bottom: 10px;
     }
 }

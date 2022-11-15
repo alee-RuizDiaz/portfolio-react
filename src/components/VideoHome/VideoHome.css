@@ -2,7 +2,44 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%; 
+  display: inline-block;
+}
+
+
+@keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } 
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } 
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 
 .video {
     width: 100%;
@@ -48,8 +85,8 @@
 }
 
 .content .textContent  p {
-    font-size: 1.7rem;
-    font-weight: 200;
+    font-size: 1.8rem;
+    font-weight: 500;
     text-transform: uppercase;
     text-shadow: 5px 5px 10px #a945c7;
 }
@@ -139,7 +176,7 @@
     }
     
     .content .textContent  p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-transform: uppercase;
         text-shadow: 5px 5px 10px #a945c7;
     }

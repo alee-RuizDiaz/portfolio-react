@@ -11,7 +11,15 @@ function VideoHome() {
             <video className='video' src={coverVideo} autoPlay loop muted/>
         </div>
         <div className='textContent animate-bg'>
-            <p>Alejandro Ruiz Diaz</p>
+            <p>
+                ¡Hola!
+            <span className='wave ms-2' role={'img'}>
+                👋🏻
+            </span>
+            </p>
+            <p>
+                Soy Alejandro Ruiz Diaz
+            </p>
             <h1>React Developer.</h1>
             <div className='mt-4'>
             <a className='btn-neon mx-3' download='' href={AlejandroCv}>

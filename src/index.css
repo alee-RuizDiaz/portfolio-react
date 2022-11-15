@@ -22,3 +22,37 @@ h1, h4, p, a {
 ul {
   list-style-type: none ;
 }
+
+.App {
+  position: relative;
+}
+
+.App::before {
+  content: '';
+  background-image: url("./image/estrellas.webp");
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.4;
+  z-index: -2;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 121, 216, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 12px;
+}

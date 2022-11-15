@@ -6,7 +6,6 @@
     flex-wrap: wrap;
 }
 
-
 .aboutInf {
     display: flex;
     justify-content: center;
@@ -29,6 +28,7 @@
 .left1 h1 {
     margin: 1.2rem 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .right {
@@ -49,6 +49,11 @@
 .right .top {
     grid-column: 1 / span 10;
     grid-row: 1;
+}
+
+.skill {
+    color: #C770F0;
+    font-weight: 600;
 }
 
 @media (max-width: 1024px) {

@@ -9,7 +9,7 @@ function AboutContent() {
     <div className='about'>
         <div className='aboutInf'>
             <div className='left'>
-                <h1>Who Am I?</h1>
+                <h1>¿Quién soy?</h1>
                 <p>
                 Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
                 </p>
@@ -25,7 +25,7 @@ function AboutContent() {
         </div>
         <div className='about'>
             <div className='left1'>
-                <h1>Habilidades</h1>
+                <h1>Mis <span className='skill'>Habilidades</span></h1>
             </div>
             <div>
                 <SkillsContent/>
