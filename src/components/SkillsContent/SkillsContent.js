@@ -11,7 +11,7 @@ import {
   SiCss3,
   SiBootstrap
 } from "react-icons/si";
-import { FaHtml5 } from 'react-icons/fa'
+import { FaElementor, FaHtml5 } from 'react-icons/fa'
 import { BsWordpress } from 'react-icons/bs'
 
 import React from 'react'
@@ -46,6 +46,9 @@ function SkillsContent() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <BsWordpress />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <FaElementor />
         </Col>
         </Row>
     </div>

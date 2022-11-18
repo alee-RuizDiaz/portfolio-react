@@ -1,6 +1,5 @@
 import './WorkCard.css'
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 
 function WorkCard(props) {
   return (
@@ -10,8 +9,8 @@ function WorkCard(props) {
         <div className='proDetails'>
             <p>{props.description}</p>
             <div className='proButtons'>
-                <NavLink to={props.deploy} className='button'>Deploy</NavLink>
-                <NavLink to={props.repositorio} className='button'>Repositorio</NavLink>
+                <a href={props.deploy} target='_blank' rel="noreferrer" className='button px-4 py-2'>Deploy</a>
+                <a href={props.repositorio} target='_blank' rel="noreferrer" className='button px-4 py-2'>Repositorio</a>
             </div>
         </div>
     </div>

@@ -31,7 +31,7 @@
 }
 
 .projectTitle {
-    color: white;
+    color: #C770F0;
     padding: 1rem 0;
 }
 
@@ -45,6 +45,17 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
+}
+
+.button {
+    background-color:  rgba(119, 53, 136, 0.459);
+    transition: 0.6s;
+}
+
+.button:hover {
+    border: 2px solid rgba(119, 53, 136, 0.459);
+    color: rgba(119, 53, 136, 0.459);
+    background-color: transparent;
 }
 
  @media (max-width: 740px) {

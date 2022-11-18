@@ -1,6 +1,6 @@
 .heroImg {
     width: 100%;
-    background-color: #3005311e;
+    background-color: #24052528;
     height: 40vh;
     position: relative;
 }
@@ -51,8 +51,8 @@
 
 .contactHeading::before {
     content: "";
-    background-image: url("../../image/ContactImg.jpg");
-    background-size: cover;
+    background-image: url("../../image/ContantImg.jpg");
+    background-size: auto;
     background-position: center;
     height: 100%;
     width: 100%;
@@ -71,31 +71,10 @@
     align-items: center;
 }
 
-.skillsHeading::before {
-    content: "";
-    background-image: url("../../image/SkillsImg.jpg");
-    opacity: 0.25;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.skillsHeading {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .heroImg h1 {
     font-size: 2.4rem;
+    font-weight: 500;
 }
 
 .heroImg p {

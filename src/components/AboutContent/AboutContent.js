@@ -13,7 +13,7 @@ function AboutContent() {
                 <p>
                 Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
                 </p>
-                <Link to={'/contact'}>Contacto</Link>
+                <Link to={'/contact'} className='button px-5 py-2'>Contacto</Link>
             </div>
             <div className='right mt-lg-0 mt-3'>
                 <div className='imgContainer'>

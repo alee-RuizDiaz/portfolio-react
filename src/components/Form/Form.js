@@ -12,7 +12,7 @@ function Form() {
         <input type='text'/>
         <label>Mensaje</label>
         <textarea rows={6} placeholder='Escribe tu mensaje'/>
-        <button className='buttonContact'>Enviar</button>
+        <button className='button py-2' style={{color: 'white'}}>Enviar</button>
     </div>
   )
 }
