@@ -1,7 +1,7 @@
 import './VideoHome.css'
 import coverVideo from '../../media/coverVideo.mp4'
 import React from 'react'
-import AlejandroCv from '../../assets/AlejandroCv.pdf'
+import AlejandroCv from '../../assets/CV-RuizDiaz.pdf'
 import { Link } from 'react-router-dom'
 
 function VideoHome() {
