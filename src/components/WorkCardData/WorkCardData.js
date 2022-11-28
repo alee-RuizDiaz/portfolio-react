@@ -21,7 +21,7 @@ const ProjectsCardData = [
     {
         img: tecnocommerce,
         title: 'TecnoCommerce',
-        description: 'Proyecto final del curso de ReactJs de CoderHouse, es una app que simula el funcionamiento de un E-commerce, se utilizo Firebase como backend para guardar los productos, las distintas categorias del NavBar y generar las ordendes de pago.',
+        description: 'Proyecto final del curso de ReactJs de CoderHouse, es una app que simula el funcionamiento de un E-commerce, se utilizo Firebase como backend para guardar los productos, las distintas categorias del NavBar y generar las ordenes de pago.',
         deploy: 'https://tecnocommerce-opal.vercel.app/',
         repositorio: 'https://github.com/alee-RuizDiaz/project-react'
     }

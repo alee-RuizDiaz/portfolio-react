@@ -9,9 +9,10 @@ function AboutContent() {
     <div className='about'>
         <div className='aboutInf'>
             <div className='left'>
-                <h1>¿Quién soy?</h1>
-                <p>
-                Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                <h1>¿Quién <span style={{color: '#C770F0'}}>soy?</span></h1>
+                <p className='my-3'>
+                    Soy un Desarrollador web frontend y me apaciona el mundo de la tecnología. Me gusta afrontar desafios e incorporar nuevos conocimientos.
+                    Considero que en cada uno de mis trabajos, demuestro que disfruto y amo lo que hago. 
                 </p>
                 <Link to={'/contact'} className='button px-5 py-2'>Contacto</Link>
             </div>

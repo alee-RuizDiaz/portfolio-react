@@ -30,7 +30,7 @@ window.addEventListener("scroll", changeColor)
 return (
     <div className={color ? 'header header-bg' : 'header'}>
         <Link className='titleNavbar ms-lg-5 ms-3' to='/'>
-            <h1>Portfolio</h1>
+            <h1>Port<span style={{color: '#C770F0'}}>folio</span></h1>
         </Link>
         <ul className={click ? 'navMenu active' : 'navMenu me-lg-5'}>
             <li>
