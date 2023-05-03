@@ -2,6 +2,7 @@
 import hardware from '../../image/hardwaregaming.jpg'
 import mitienda from '../../image/mitienda.jpg'
 import tecnocommerce from '../../image/tecnocommerce.jpg'
+import blackpink from '../../image/blackpink.jpg'
 
 const ProjectsCardData = [
     {
@@ -24,6 +25,13 @@ const ProjectsCardData = [
         description: 'Proyecto final del curso de ReactJs de CoderHouse, es una app que simula el funcionamiento de un E-commerce, se utilizo Firebase como backend para guardar los productos, las distintas categorias del NavBar y generar las ordenes de pago.',
         deploy: 'https://tecnocommerce-opal.vercel.app/',
         repositorio: 'https://github.com/alee-RuizDiaz/project-react'
+    },
+    {
+        img: blackpink,
+        title: 'Black Pink',
+        description: 'Proyecto freelancer realizado para un cliente dado por CoderHouse, el mismo es un E-commerce utilziado para venta por mayor. Trabajo realizado por 3 diseñadoras y 2 programadores en el que se utilizo el framework de React ',
+        deploy: 'https://blackpinkcba.netlify.app/',
+        repositorio: 'https://github.com/KingMacking/BlackPink'
     }
 ]
 
